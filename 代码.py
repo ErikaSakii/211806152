@@ -15,7 +15,7 @@ for b in a : #循环计数
        hackers.append(b) 
 c = len(hackers) #异常用户个数
 txt2 = open("text.txt",'w') #写入txt2 
-txt2.write(count + '\n')
+txt2.write(Counter + '\n')
 for d in hackers :
     txt2.write(d + '\n')
     txt2.close() 
